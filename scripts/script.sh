@@ -26,8 +26,36 @@ if [ $analysisTye = "RNA_Seq_profiles" ]; then
      Rscript --vanilla  ${bindir}/deTS.R ${input} ${outdir} RNA_Seq_profiles \
      ${reference_panel} ${ratio} ${p_adjust_method} ${normalization_method}
 fi
-if [ -f ${outdir}/Tissue_Specific_Enrichment.txt ]; then
-   echo " Finished successfully";
-   else
+
+if [ -f ${outdir}/Tissue_Specific_Enrichment1.txt ] && [ $analysisTye = "single_sample" ] ; then
+     sed   -i '1d' ${outdir}/Tissue_Specific_Enrichment1.txt
+     echo  -e 'Tissue \t p.adjust' > ${outdir}/Tissue_Specific_Enrichment.txt
+     cat    ${outdir}/Tissue_Specific_Enrichment1.txt >> ${outdir}/Tissue_Specific_Enrichment.txt
+     rm ${outdir}/Tissue_Specific_Enrichment1.txt
+    echo " Finished successfully";
+   
+ elif [ -f ${outdir}/Tissue_Specific_Enrichment1.txt ] && [ $analysisTye = "multiple_samples" ] ; then
+     header_=($(head -n1 ${outdir}/Tissue_Specific_Enrichment1.txt))
+     header_=( "Tissue" ${header_[@]})
+     sed   -i '1d' ${outdir}/Tissue_Specific_Enrichment1.txt
+     printf '%s\t' ${header_[@]} > ${outdir}/Tissue_Specific_Enrichment.txt
+     echo -e "\n" >> ${outdir}/Tissue_Specific_Enrichment.txt
+     sed   -i '2d' ${outdir}/Tissue_Specific_Enrichment.txt
+     cat    ${outdir}/Tissue_Specific_Enrichment1.txt >> ${outdir}/Tissue_Specific_Enrichment.txt
+     rm ${outdir}/Tissue_Specific_Enrichment1.txt
+    echo " Finished successfully";  
+   
+ elif [ -f ${outdir}/Tissue_Specific_Enrichment1.txt ] && [ $analysisTye = "RNA_Seq_profiles" ] ; then
+      header_=($(head -n1 ${outdir}/Tissue_Specific_Enrichment1.txt))
+      header_=( "Tissue" ${header_[@]})
+      sed   -i '1d' ${outdir}/Tissue_Specific_Enrichment1.txt
+      printf '%s\t' ${header_[@]} > ${outdir}/Tissue_Specific_Enrichment.txt
+      echo -e "\n" >> ${outdir}/Tissue_Specific_Enrichment.txt
+      sed   -i '2d' ${outdir}/Tissue_Specific_Enrichment.txt
+      cat    ${outdir}/Tissue_Specific_Enrichment1.txt >> ${outdir}/Tissue_Specific_Enrichment.txt
+      rm ${outdir}/Tissue_Specific_Enrichment1.txt
+     echo " Finished successfully";  
+    
+else
      touch ${outdir}/Tissue_Specific_Enrichment.txt 
      fi

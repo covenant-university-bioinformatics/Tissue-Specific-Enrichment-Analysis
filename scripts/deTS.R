@@ -12,7 +12,7 @@ p_adjust_method = as.character(args[6])
 #plot_threshold=as.numeric(args[7])
 
 normalization_method= as.character(args[7])
-out_file=paste0(outdir,'/',"Tissue_Specific_Enrichment.txt")
+out_file=paste0(outdir,'/',"Tissue_Specific_Enrichment1.txt")
 #out_pdf=paste0(outdir,'/',"Tissue_Specific_Enrichment.pdf")
 print(args)
 
