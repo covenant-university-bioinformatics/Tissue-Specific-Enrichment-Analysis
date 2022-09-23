@@ -9,11 +9,11 @@ analysisType= as.character(args[3])
 reference_panel=as.character(args[4])
 ratio_arg= as.numeric(args[5])
 p_adjust_method = as.character(args[6])
-plot_threshold=as.numeric(args[7])
+#plot_threshold=as.numeric(args[7])
 
-normalization_method= as.character(args[8])
+normalization_method= as.character(args[7])
 out_file=paste0(outdir,'/',"Tissue_Specific_Enrichment.txt")
-out_pdf=paste0(outdir,'/',"Tissue_Specific_Enrichment.pdf")
+#out_pdf=paste0(outdir,'/',"Tissue_Specific_Enrichment.pdf")
 print(args)
 
 #data(reference_panel)
@@ -29,10 +29,10 @@ if ( analysisType == "single_sample"){
         stop("Please modify your parameters")
         })
       write.table(tsea_t,out_file)
-       plot_ =tryCatch({
-        pdf(out_pdf, 10, 10, onefile = FALSE)
-        tsea.plot(tsea_t, threshold = plot_threshold) #plot_threshold
-        dev.off()
+       #plot_ =tryCatch({
+       #pdf(out_pdf, 10, 10, onefile = FALSE)
+       # tsea.plot(tsea_t, threshold = plot_threshold) #plot_threshold
+       # dev.off()
     },
      error = function(e){
         stop("Error with plotting image")})
@@ -47,13 +47,13 @@ if ( analysisType == "single_sample"){
 
      write.table(tsea_t_multi,out_file)
     
-    plot_ =tryCatch({
-        pdf(out_pdf, 10, 10, onefile = FALSE)
-        tsea.plot(tsea_t_multi, threshold = plot_threshold) #plot_threshold
-        dev.off()
-    },
-     error = function(e){
-        stop("Error with plotting image")})
+   # plot_ =tryCatch({
+   #     pdf(out_pdf, 10, 10, onefile = FALSE)
+   #     tsea.plot(tsea_t_multi, threshold = plot_threshold) #plot_threshold
+   #    dev.off()
+   # },
+   #  error = function(e){
+   #     stop("Error with plotting image")})
 
 } else if ( analysisType == "RNA_Seq_profiles"){
 ## TSEA for RNA-Seq profiles
@@ -68,13 +68,13 @@ if ( analysisType == "single_sample"){
         stop("Please modify your parameters")})
     
     write.table(tseaed,out_file)
-    plot_ =tryCatch({
-        pdf (out_pdf, 10, 10, onefile = FALSE)
-        tsea.plot(tseaed, threshold = plot_threshold)
-        dev.off()
-    },
-     error = function(e){
-        stop("Error with plotting image")})
+    #plot_ =tryCatch({
+    #    pdf (out_pdf, 10, 10, onefile = FALSE)
+    #    tsea.plot(tseaed, threshold = plot_threshold)
+    #    dev.off()
+    #},
+    # error = function(e){
+    #    stop("Error with plotting image")})
 } else{
     print(" inValid option for the analysisType ")
 }
