@@ -19,7 +19,7 @@ fi
 
 if [ $analysisTye = "multiple_samples" ]; then
      Rscript --vanilla  ${bindir}/deTS.R ${input} ${outdir} multiple_samples \
-     ${reference_panel} ${ratio} ${p_adjust_method}  ${normalization_method}
+     ${reference_panel} ${ratio} ${p_adjust_method} 
 fi
 
 if [ $analysisTye = "RNA_Seq_profiles" ]; then
