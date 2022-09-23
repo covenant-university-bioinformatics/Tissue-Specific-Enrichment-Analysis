@@ -28,7 +28,7 @@ if ( analysisType == "single_sample"){
       ratio = ratio_arg, p.adjust.method =p_adjust_method)},error = function(e){
         stop("Please modify your parameters")
         })
-      write.table(tsea_t,out_file)
+      write.table(tsea_t,out_file,sep="\t")
        #plot_ =tryCatch({
        #pdf(out_pdf, 10, 10, onefile = FALSE)
        # tsea.plot(tsea_t, threshold = plot_threshold) #plot_threshold
@@ -45,7 +45,7 @@ if ( analysisType == "single_sample"){
      error = function(e){
         stop("Please modify your parameters")})
 
-     write.table(tsea_t_multi,out_file)
+     write.table(tsea_t_multi,out_file,sep="\t")
     
    # plot_ =tryCatch({
    #     pdf(out_pdf, 10, 10, onefile = FALSE)
@@ -67,7 +67,7 @@ if ( analysisType == "single_sample"){
      error = function(e){
         stop("Please modify your parameters")})
     
-    write.table(tseaed,out_file)
+    write.table(tseaed,out_file,sep="\t")
     #plot_ =tryCatch({
     #    pdf (out_pdf, 10, 10, onefile = FALSE)
     #    tsea.plot(tseaed, threshold = plot_threshold)
