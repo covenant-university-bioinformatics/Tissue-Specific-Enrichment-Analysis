@@ -33,9 +33,9 @@ if ( analysisType == "single_sample"){
        #pdf(out_pdf, 10, 10, onefile = FALSE)
        # tsea.plot(tsea_t, threshold = plot_threshold) #plot_threshold
        # dev.off()
-    },
-     error = function(e){
-        stop("Error with plotting image")})
+   # },
+     #error = function(e){
+        #stop("Error with plotting image")})
 ## TSEA for multiple gene lists
   } else if ( analysisType == "multiple_samples"){
      dat = read.table(input_file, head = T, row.names = 1)
