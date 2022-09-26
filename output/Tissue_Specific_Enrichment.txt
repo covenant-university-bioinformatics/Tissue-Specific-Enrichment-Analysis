@@ -1,0 +1,48 @@
+"query"
+"Adipose - Subcutaneous" 1
+"Adipose - Visceral (Omentum)" 1
+"Adrenal Gland" 1
+"Artery - Aorta" 1
+"Artery - Coronary" 1
+"Artery - Tibial" 1
+"Brain - Amygdala" 1
+"Brain - Anterior cingulate cortex (BA24)" 1
+"Brain - Caudate (basal ganglia)" 1
+"Brain - Cerebellar Hemisphere" 1
+"Brain - Cerebellum" 1
+"Brain - Cortex" 1
+"Brain - Frontal Cortex (BA9)" 1
+"Brain - Hippocampus" 1
+"Brain - Hypothalamus" 1
+"Brain - Nucleus accumbens (basal ganglia)" 1
+"Brain - Putamen (basal ganglia)" 1
+"Brain - Spinal cord (cervical c-1)" 1
+"Brain - Substantia nigra" 1
+"Breast - Mammary Tissue" 1
+"Colon - Sigmoid" 1
+"Colon - Transverse" 1
+"Esophagus - Gastroesophageal Junction" 1
+"Esophagus - Mucosa" 1
+"Esophagus - Muscularis" 1
+"Heart - Atrial Appendage" 1
+"Heart - Left Ventricle" 1
+"Kidney - Cortex" 1
+"Liver" 1
+"Lung" 1
+"Minor Salivary Gland" 1
+"Muscle - Skeletal" 1
+"Nerve - Tibial" 1
+"Ovary" 1
+"Pancreas" 1
+"Pituitary" 1
+"Prostate" 1
+"Skin - Not Sun Exposed (Suprapubic)" 1
+"Skin - Sun Exposed (Lower leg)" 1
+"Small Intestine - Terminal Ileum" 1
+"Spleen" 1
+"Stomach" 1
+"Testis" 1
+"Thyroid" 1
+"Uterus" 1
+"Vagina" 1
+"Whole Blood" 1
