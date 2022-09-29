@@ -1,48 +1,48 @@
-"query"
-"Adipose - Subcutaneous" 1
-"Adipose - Visceral (Omentum)" 1
-"Adrenal Gland" 1
-"Artery - Aorta" 1
-"Artery - Coronary" 1
-"Artery - Tibial" 1
-"Brain - Amygdala" 1
-"Brain - Anterior cingulate cortex (BA24)" 1
-"Brain - Caudate (basal ganglia)" 1
-"Brain - Cerebellar Hemisphere" 1
-"Brain - Cerebellum" 1
-"Brain - Cortex" 1
-"Brain - Frontal Cortex (BA9)" 1
-"Brain - Hippocampus" 1
-"Brain - Hypothalamus" 1
-"Brain - Nucleus accumbens (basal ganglia)" 1
-"Brain - Putamen (basal ganglia)" 1
-"Brain - Spinal cord (cervical c-1)" 1
-"Brain - Substantia nigra" 1
-"Breast - Mammary Tissue" 1
-"Colon - Sigmoid" 1
-"Colon - Transverse" 1
-"Esophagus - Gastroesophageal Junction" 1
-"Esophagus - Mucosa" 1
-"Esophagus - Muscularis" 1
-"Heart - Atrial Appendage" 1
-"Heart - Left Ventricle" 1
-"Kidney - Cortex" 1
-"Liver" 1
-"Lung" 1
-"Minor Salivary Gland" 1
-"Muscle - Skeletal" 1
-"Nerve - Tibial" 1
-"Ovary" 1
-"Pancreas" 1
-"Pituitary" 1
-"Prostate" 1
-"Skin - Not Sun Exposed (Suprapubic)" 1
-"Skin - Sun Exposed (Lower leg)" 1
-"Small Intestine - Terminal Ileum" 1
-"Spleen" 1
-"Stomach" 1
-"Testis" 1
-"Thyroid" 1
-"Uterus" 1
-"Vagina" 1
-"Whole Blood" 1
+Tissue 	 p.adjust
+"Adipose - Subcutaneous"	1
+"Adipose - Visceral (Omentum)"	0.0109584998307628
+"Adrenal Gland"	1
+"Artery - Aorta"	0.212086136644318
+"Artery - Coronary"	0.0109584998307628
+"Artery - Tibial"	0.00257812976565265
+"Brain - Amygdala"	1
+"Brain - Anterior cingulate cortex (BA24)"	0.54893323130315
+"Brain - Caudate (basal ganglia)"	0.212086136644318
+"Brain - Cerebellar Hemisphere"	1
+"Brain - Cerebellum"	1
+"Brain - Cortex"	0.212086136644318
+"Brain - Frontal Cortex (BA9)"	0.0398795088998633
+"Brain - Hippocampus"	0.125682169590267
+"Brain - Hypothalamus"	0.125682169590267
+"Brain - Nucleus accumbens (basal ganglia)"	1
+"Brain - Putamen (basal ganglia)"	0.54893323130315
+"Brain - Spinal cord (cervical c-1)"	0.0109584998307628
+"Brain - Substantia nigra"	0.54893323130315
+"Breast - Mammary Tissue"	0.212086136644318
+"Colon - Sigmoid"	0.0398795088998633
+"Colon - Transverse"	1
+"Esophagus - Gastroesophageal Junction"	0.0109584998307628
+"Esophagus - Mucosa"	0.0109584998307628
+"Esophagus - Muscularis"	0.0398795088998633
+"Heart - Atrial Appendage"	0.212086136644318
+"Heart - Left Ventricle"	1
+"Kidney - Cortex"	1
+"Liver"	1
+"Lung"	1
+"Minor Salivary Gland"	0.346547847015809
+"Muscle - Skeletal"	0.000213565633284591
+"Nerve - Tibial"	0.346547847015809
+"Ovary"	1
+"Pancreas"	1
+"Pituitary"	1
+"Prostate"	1
+"Skin - Not Sun Exposed (Suprapubic)"	0.54893323130315
+"Skin - Sun Exposed (Lower leg)"	0.0720332033402904
+"Small Intestine - Terminal Ileum"	1
+"Spleen"	1
+"Stomach"	1
+"Testis"	1
+"Thyroid"	1
+"Uterus"	1
+"Vagina"	0.125682169590267
+"Whole Blood"	1

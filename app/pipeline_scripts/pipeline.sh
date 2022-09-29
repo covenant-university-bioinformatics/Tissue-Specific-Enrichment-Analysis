@@ -6,7 +6,7 @@ reference_panel=$4  #{GTEx_t_score,ENCODE_z_score}
 ratio=$5
 p_adjust_method=$6   #p.adjust.method, c("holm", "hochberg", "hommel", "bonferroni", "BH", "BY", "fdr", "none")
 #plot_threshold=$7
-bindir="/app/scripts"
+bindir="/app/pipeline_scripts"
 if [ $analysisType = "RNA_Seq_profiles" ]; then
      normalization_method=$7  #{"z-score" and "abundance"}
 fi

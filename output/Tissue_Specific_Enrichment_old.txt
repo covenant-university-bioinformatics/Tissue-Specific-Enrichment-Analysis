@@ -1,0 +1,48 @@
+Tissue 	 p.adjust
+"Adipose - Subcutaneous"	0.999999999999708
+"Adipose - Visceral (Omentum)"	0.999999999999708
+"Adrenal Gland"	0.999999999999708
+"Artery - Aorta"	0.999999999999708
+"Artery - Coronary"	0.999999999999708
+"Artery - Tibial"	0.999999999999708
+"Brain - Amygdala"	0.999999999999708
+"Brain - Anterior cingulate cortex (BA24)"	0.999999999999708
+"Brain - Caudate (basal ganglia)"	0.999999999999708
+"Brain - Cerebellar Hemisphere"	0.999999999999708
+"Brain - Cerebellum"	0.999999999999708
+"Brain - Cortex"	0.999999999999708
+"Brain - Frontal Cortex (BA9)"	0.999999999999708
+"Brain - Hippocampus"	0.999999999999708
+"Brain - Hypothalamus"	0.999999999999708
+"Brain - Nucleus accumbens (basal ganglia)"	0.999999999999708
+"Brain - Putamen (basal ganglia)"	0.999999999999708
+"Brain - Spinal cord (cervical c-1)"	0.999999999999708
+"Brain - Substantia nigra"	0.999999999999708
+"Breast - Mammary Tissue"	0.999999999999708
+"Colon - Sigmoid"	0.999999999999708
+"Colon - Transverse"	0.999999999999708
+"Esophagus - Gastroesophageal Junction"	0.999999999999708
+"Esophagus - Mucosa"	0.999999999999708
+"Esophagus - Muscularis"	0.999999999999708
+"Heart - Atrial Appendage"	0.999999999999708
+"Heart - Left Ventricle"	0.999999999999708
+"Kidney - Cortex"	0.999999999999708
+"Liver"	0.999999999999708
+"Lung"	0.999999999999708
+"Minor Salivary Gland"	0.999999999999708
+"Muscle - Skeletal"	0.999999999999708
+"Nerve - Tibial"	0.999999999999708
+"Ovary"	0.999999999999708
+"Pancreas"	0.999999999999708
+"Pituitary"	0.999999999999708
+"Prostate"	0.999999999999708
+"Skin - Not Sun Exposed (Suprapubic)"	0.999999999999708
+"Skin - Sun Exposed (Lower leg)"	0.999999999999708
+"Small Intestine - Terminal Ileum"	0.999999999999708
+"Spleen"	0.999999999999708
+"Stomach"	0.999999999999708
+"Testis"	0.999999999999708
+"Thyroid"	0.999999999999708
+"Uterus"	0.999999999999708
+"Vagina"	0.999999999999708
+"Whole Blood"	0.999999999999708
