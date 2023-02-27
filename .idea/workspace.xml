@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="bbad3caf-0d1d-43eb-9958-69e572cf1a85" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/Tissue_Specific_Enrichment.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/Tissue_Specific_Enrichment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/output/Tissue_Specific_Enrichment.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/runDocker" beforeDir="false" afterPath="$PROJECT_DIR$/runDocker" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/script.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/script.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +47,8 @@
       <workItem from="1661966511608" duration="2833000" />
       <workItem from="1664187059186" duration="3476000" />
       <workItem from="1664211962684" duration="6045000" />
+      <workItem from="1664289575623" duration="5824000" />
+      <workItem from="1664461405638" duration="1207000" />
     </task>
     <servers />
   </component>
